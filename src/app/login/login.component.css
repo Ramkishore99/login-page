@@ -1,0 +1,119 @@
+.column {
+    float: left;
+    
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+  }
+
+h1{
+    margin-bottom: 50px;
+    font-size: 40px;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+
+.left {
+    width: 45%;
+    left: 0;
+    background-color: rgb(255, 255, 255);
+    color: rgb(68, 63, 63);
+}
+  
+.right {
+    height: 100%;
+    width: 55%;
+    right: 0;
+    color: white;
+    background-color: #0e76a8;
+    
+}
+  
+.container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.container.btn{
+    justify-content: center;
+}
+
+.rightside{
+    padding: 50px;
+}
+
+.form{
+    margin-top: 15%;
+    padding: 10%;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+input{
+    padding: 15px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 8px;
+    border-style: solid;
+    border-width: thin;
+    margin-top: 3px;
+    font-size: 18px;
+}
+  
+input.ng-invalid.ng-touched{
+    border: 5px solid red;
+    border-width: thin;
+}
+
+.text-danger{
+    color: red;
+    font-size: smaller;
+    font-weight: lighter;
+}
+
+.button1 {
+    padding: 15px;
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 8px;
+    width: 100%;
+    background-color: rgb(0, 102, 255);
+    cursor: pointer;
+    border-style: solid;
+    border-color: cornflowerblue;
+    border-radius: 5px;
+    border-width: 2px;
+    
+}
+
+.button2 {
+    position: relative;
+    background: border-box;
+    cursor: pointer;
+    padding: 10%;
+    margin-top: 20px;
+    border-style:hidden ;
+     
+} 
+
+
+.mat-icon{
+    color: rgb(0, 102, 255);
+    transform: scale(1.5);
+}
+
+.admin{
+    position: relative;
+    transform: scale(1.5);
+    margin-bottom: 10%;
+    font-size: 8px;
+    font-family: sans-serif;
+    color: rgb(0, 102, 255);
+}
+
+ 
